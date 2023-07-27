@@ -1,0 +1,7 @@
+<%- include('header', { pageTitle: 'Dashboard', username: user.username }) %>
+<div class="dash">
+  
+  <button><a href="/logout" style="color: white">Logout</a></button>
+</div>
+
+<%- include('data', { data: data }) %>
